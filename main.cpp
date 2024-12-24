@@ -15,10 +15,12 @@ int main()
     //Animal을 포인터 타입으로 생성
     Animal* animal[] = {&Dog, &Cat, &Cow};
 
+    //반복문으로 울음소리 호출
     for (int i = 0; i < 3; i++)
     {
         crying(animal[i]);
     }
+
 
     return 0;
 }

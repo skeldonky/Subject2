@@ -41,7 +41,7 @@ private:
 	string c_sound;
 };
 
-//다형성 crying에 dog, cat , cow를 넣어 makeSound를 호출
+//다형성 crying에 dog, cat , cow를 넣어 자식클래스의 makeSound를 호출
 void crying(Animal* animal)
 {
 	animal->makeSound();
