@@ -10,7 +10,7 @@ public:
 	Animal(){}
 	//가상함수 자식 클래스에서 새로 정의 가능
 	virtual void makeSound(){}
-	virtual ~Animal(){}
+	~Animal(){}
 };
 
 //자식클래스1 Dog
