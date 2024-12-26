@@ -11,6 +11,7 @@ Dog* dog = new Dog("Bow Bow");
 Cat* cat = new Cat("Meow~");
 Cow* cow = new Cow("Moooooo");
 
+
 // 랜덤 동물을 생성하는 함수
 // - 0, 1, 2 중 하나의 난수를 생성하여 각각 Dog, Cat, Cow 객체 중 하나를 동적으로 생성합니다.
 // - 생성된 객체는 Animal 타입의 포인터로 반환됩니다.
@@ -58,7 +59,7 @@ int main()
     // 울음소리 출력
     zoo.performActions();
 
-    //끝날때 동적 메모리 해제?
+    //끝날때 동적 메모리 해제?(맞는 방법인지 모르겠음...)
     delete dog;
     delete cat;
     delete cow;
